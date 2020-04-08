@@ -1,0 +1,60 @@
+
+<h3>{{viewTitle}}</h3>
+
+    <form action="/course" method="POST" autocomplete="off">
+        <input type="hidden" name="_id" value="{{courses._id}}">
+        <div class="form-group">
+            <label>Course Title</label>
+            <input type="text" class="form-control" name="CourseTitle" placeholder="Course Title" value="{{course.CourseTitle}}">
+            <div class="text-danger">
+                {{course.CourseTitleError}}</div>
+        </div>
+        <div class="form-group">
+            <label>CourseCode</label>
+            <input type="text" class="form-control" name="CourseCode" placeholder="CourseCode" value="{{course.CourseCode}}">
+            <div class="text-danger">
+                {{course.CourseCodeError}}</div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Credits</label>
+                <input type="text" class="form-control" name="Credits" placeholder="Credits" value="{{course.Credits}}">
+            </div>
+        </div>
+            <div class="form-group col-md-6">
+                <label>CourseContents</label>
+                <input type="text" class="form-control" name="CourseContents" placeholder="CourseContents" value="{{course.CourseContents}}">
+            </div>
+        
+            <div class="form-group col-md-6">
+                <label>TextBooks</label>
+                <input type="text" class="form-control" name="TextBooks" placeholder="TextBooks" value="{{course.TextBooks}}">
+            </div>
+             <div class="form-group col-md-6">
+                <label>Reference Books</label>
+                <input type="text" class="form-control" name="ReferenceBooks" placeholder="ReferenceBooks" value="{{course.ReferenceBooks}}">
+            </div>
+             <div class="form-group col-md-6">
+                <label>SubjectTeacher</label>
+                <input type="text" class="form-control" name="SubjectTeacher" placeholder="SubjectTeacher" value="{{course.SubjectTeacher}}">
+            </div>
+             <div class="form-group col-md-6">
+                <label> OptedStudents</label>
+                <input type="text" class="form-control" name=" OptedStudents" placeholder=" OptedStudents" value="{{course.OptedStudents}}">
+            </div>
+             <div class="form-group col-md-6">
+                <label> PassedStudents</label>
+                <input type="text" class="form-control" name="PassedStudents" placeholder="PassedStudents" value="{{course.PassedStudents}}">
+                
+            </div>
+
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+            <a class="btn btn-secondary" href="/course/list"><i class="fa fa-list-alt"></i> View All</a>
+        </div>
+    </form>
+    
+    
+    
+
