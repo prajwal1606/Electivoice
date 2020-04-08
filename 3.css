@@ -1,0 +1,50 @@
+.log{
+  top: 55%;
+  left: 50%;
+  margin: -150px 0 0 -150px;
+  width: 400px;
+  height: 400px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+    position: absolute;
+    font-size:40px;
+    text-decoration: blanchedalmond;
+    height: auto;
+    width: auto;
+    text-decoration-color: chocolate;
+    text-decoration: darkgreen;
+    background-color:"red";
+   
+    }
+
+    body{
+    background-image: url("https://images.shiksha.com/mediadata/images/1512383475phppEM9yX.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+ 
+  .header img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #555;
+    top: 60%;
+    left: 60%;
+    text-align: center;
+    margin-left:690px ;
+  }
+
+  .log a{
+      padding: 6px 8px 6px 16px;
+      text-decoration: "arial";
+      font-size: 15px;
+      color:black;
+      display: block;
+    }
+    
+    a:hover{
+      color:red;
+    }
